@@ -1,0 +1,135 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.contact-info,
+.contact-form {
+    width: calc(50% - 20px);
+}
+
+.contact-info {
+    margin-right: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-details span {
+    display: inline-block;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    position: relative;
+    padding-left: 45px;
+    padding-bottom: 20px;
+}
+
+.contact-item:first-child {
+    padding-top: 20px;
+}
+
+.contact-item a {
+    text-decoration: none;
+}
+
+.contact-item::before {
+    position: absolute;
+    left: 0;
+    font-family: "icomoon", serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover a {
+    color: #3c64e7;
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover::before {
+    color: #3c64e7;
+    transform: scale(1.1);
+}
+
+.contact-item.phone::before {
+    content: "\e942";
+}
+
+.contact-item.email::before {
+    content: "\e945";
+}
+
+.contact-item.location::before {
+    content: "\e947";
+}
+
+.contact-form {
+    background-color: rgba(126, 126, 126, 0.23);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #202020;
+    color: #fff;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    background-color: #303A37;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: white;
+    color: black;
+}
+
+.error {
+    display: inline-block;
+    color: #f87171;
+    font-size: 13px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}

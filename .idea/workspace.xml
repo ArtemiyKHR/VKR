@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3b7cf714-4bf6-4115-b615-b88ab636d306" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="JSX File" />
+        <option value="CSS File" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2xu3MHch5C280LaQVfJZJ7A5aQr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose.yml[backend, frontend]: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Диплом\vkr\public" />
+      <recent name="D:\Диплом\vkr\src\components\SectionHome" />
+      <recent name="D:\Диплом\vkr\src\components\Header" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml[backend, frontend]: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="backend" />
+              <option value="frontend" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml[backend, frontend]: Compose Deployment" />
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.npm start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml[backend, frontend]: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b7cf714-4bf6-4115-b615-b88ab636d306" name="Changes" comment="" />
+      <created>1748774084463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748774084463</updated>
+      <workItem from="1748774085215" duration="3466000" />
+      <workItem from="1749099322549" duration="1546000" />
+      <workItem from="1749176856992" duration="6019000" />
+      <workItem from="1749378028711" duration="11011000" />
+      <workItem from="1749390073184" duration="4926000" />
+      <workItem from="1749416062192" duration="6809000" />
+      <workItem from="1749490732380" duration="10396000" />
+      <workItem from="1749607977207" duration="2118000" />
+      <workItem from="1749729873819" duration="13698000" />
+      <workItem from="1749792973240" duration="42000" />
+      <workItem from="1749793034660" duration="13219000" />
+      <workItem from="1749840767369" duration="450000" />
+      <workItem from="1749890076733" duration="17585000" />
+      <workItem from="1749965248924" duration="4993000" />
+      <workItem from="1749973242291" duration="5587000" />
+      <workItem from="1749986684635" duration="25979000" />
+      <workItem from="1750026085853" duration="632000" />
+      <workItem from="1750039699656" duration="7841000" />
+      <workItem from="1750049844884" duration="351000" />
+      <workItem from="1750093373499" duration="2495000" />
+      <workItem from="1750138026672" duration="267000" />
+      <workItem from="1750281889380" duration="17458000" />
+      <workItem from="1750605463051" duration="2067000" />
+      <workItem from="1750608416892" duration="738000" />
+      <workItem from="1750609200550" duration="782000" />
+      <workItem from="1750620705145" duration="10312000" />
+      <workItem from="1750732855882" duration="4082000" />
+      <workItem from="1750739226110" duration="2168000" />
+      <workItem from="1750781406365" duration="1254000" />
+      <workItem from="1750827367462" duration="625000" />
+      <workItem from="1750886764012" duration="3144000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+</project>

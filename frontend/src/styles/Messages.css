@@ -1,0 +1,91 @@
+.messages-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-top: 60px;
+    color: #fff;
+    background: #222;
+    border-radius: 10px;
+}
+
+.messages-page h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.messages-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #333;
+}
+
+.messages-table th,
+.messages-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+
+.messages-table th {
+    background: #444;
+    font-weight: bold;
+}
+
+.messages-table tr:hover {
+    background: #3a3a3a;
+}
+
+.messages-table th:nth-child(1),
+.messages-table td:nth-child(1) {
+    width: 10%;
+}
+
+.messages-table th:nth-child(2),
+.messages-table td:nth-child(2) {
+    width: 20%;
+}
+
+.messages-table th:nth-child(3),
+.messages-table td:nth-child(3) {
+    width: 20%;
+}
+
+.messages-table th:nth-child(4),
+.messages-table td:nth-child(4) {
+    width: 30%;
+    max-width: 300px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+.messages-table th:nth-child(5),
+.messages-table td:nth-child(5) {
+    width: 20%;
+}
+
+.messages-table th:nth-child(6),
+.messages-table td:nth-child(6) {
+    width: 10%;
+    text-align: center;
+}
+
+.error-message {
+    color: #ff4d4d;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}

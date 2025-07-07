@@ -1,0 +1,122 @@
+.modal-overlay.profileEdit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+.modal-overlay.profileEdit.exiting {
+    animation: fadeOut 0.3s ease-in forwards;
+}
+
+.profile-info.profileEdit {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    width: 500px;
+    animation: scaleIn 0.3s ease-out forwards;
+}
+
+.profile-info.profileEdit.exiting {
+    animation: scaleOut 0.3s ease-in forwards;
+}
+
+.profile-form.profileEdit {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input.profileEdit {
+    background: #555;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    color: #fff;
+    width: 100%;
+}
+
+.form-error.profileEdit {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.button-group.profileEdit {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.submit-btn.profileEdit {
+    background: #444;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn.save-btn.profileEdit {
+    background: #444;
+}
+
+.submit-btn.profileEdit:hover {
+    background: black;
+}
+
+.submit-btn.save-btn.profileEdit:hover {
+    background: black;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes scaleOut {
+    from {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.95);
+    }
+}

@@ -1,0 +1,193 @@
+.homepage {
+    color: #fff;
+    text-align: center;
+}
+
+.header {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 400px;
+    background-image: url('../assets/homepage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header h1,
+.header p {
+    position: relative;
+    z-index: 1;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background: #444;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn.primary {
+    background: #303A37;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    position: relative;
+}
+
+.burger-menu span {
+    background: #333;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+.burger-menu span:nth-child(1) {
+    top: 0;
+}
+
+.burger-menu span:nth-child(2) {
+    top: 8px;
+}
+
+.burger-menu span:nth-child(3) {
+    top: 16px;
+}
+
+.burger-menu.active span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 8px;
+}
+
+.burger-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+@media (max-width: 1024px) {
+    .header h1 {
+        font-size: 2.5rem;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .services h2,
+    .about-text h2,
+    .masters h2,
+    .contact-info h2 {
+        font-size: 2rem;
+    }
+
+    .service-card,
+    .master-card {
+        padding: 20px;
+    }
+
+    .master-cards{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .contact-section {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+    }
+
+    .services,
+    .about-us,
+    .masters,
+    .contact-section {
+        padding: 60px 0;
+    }
+}

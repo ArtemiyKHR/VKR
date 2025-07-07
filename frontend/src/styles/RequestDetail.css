@@ -1,0 +1,203 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.modal-header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+}
+
+.request-detail label {
+    display: block;
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.detail-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4a4a4a;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+    resize: vertical;
+}
+
+.detail-input[readonly] {
+    background-color: #4a4a4a;
+}
+
+.detail-input.textarea {
+    min-height: 80px;
+}
+
+.comments-section {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #333;
+}
+
+.comments-section h4 {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.comments-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.comment-item {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.add-comment-btn, .save-btn {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 120px;
+    text-align: center;
+}
+
+.add-comment-btn:hover, .save-btn:hover {
+    background-color: #777;
+}
+
+.textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comments-section h4 {
+    margin-bottom: 10px;
+}
+
+.comments-list {
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.comment-item {
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #2a2a2a;
+    border-radius: 4px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.add-comment-btn,
+.save-btn,
+.comment-btn {
+    background-color: #444;
+    color: #fff;
+    padding: 8px 16px;
+    max-width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.save-btn.reqst {
+    margin: 0;
+    font-size: 18px;
+}
+
+.add-comment-btn:hover,
+.save-btn:hover,
+.comment-btn:hover {
+    background-color: #0056b3;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.comment-input {
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    resize: vertical;
+}

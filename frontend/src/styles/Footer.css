@@ -1,0 +1,129 @@
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+    width: 33.33%;
+}
+
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left-section p {
+    padding: 15px 0;
+}
+
+.logoFooter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.left-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.middle-section {
+    margin-left: 50px;
+}
+
+.middle-section ul,
+.right-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.middle-section li,
+.right-section li {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.middle-section a,
+.right-section a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.middle-section a:hover,
+.right-section a:hover {
+    color: #3c64e7;
+}
+
+.bottom-section {
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom-section hr {
+    border: none;
+    border-top: 1px solid #333;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.bottom-section p {
+    text-align: left;
+}
+
+.bottom-section a {
+    color: #3c64e7;
+    text-decoration: none;
+}
+
+.bottom-section p, .bottom-section a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bottom-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .top-sections {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-section,
+    .middle-section,
+    .right-section {
+        width: 100%;
+        text-align: center;
+    }
+}
